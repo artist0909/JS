@@ -36,3 +36,39 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+//stack and heap memmory
+
+//stack(primitive) and heap(non-primitive)
+
+//in stack you recive copy
+
+//in heap you recive reference
+
+
+
+
+//copy
+
+let myName = "Devashish"
+
+let myName2 = myName
+myName = "Abishek"
+
+console.log(myName);
+console.log(myName2);
+
+
+
+//reference 
+
+let userOne = {
+    name : "dev",
+    age : 21
+}
+
+let userTwo = userOne
+userTwo.name = "manan"
+
+console.log(userOne.name);
+console.log(userTwo.name);
