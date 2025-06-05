@@ -1,4 +1,4 @@
-const { StrictMode } = require("react")
+// const { StrictMode } = require("react")
 
 let score = "dev"
 
@@ -26,3 +26,18 @@ let somenumber = 33
 let stringNumber = String(somenumber)
 console.log(stringNumber)
 console.log(typeof stringNumber)
+
+
+// ****************************Operations************************************ */
+
+let value = 3
+let negValue = -value
+
+console.log(negValue)
+
+console.log(1+2)
+console.log("1"+2)
+console.log(1+"2")
+console.log("1"+"2")
+console.log("1"+2+2)//if first string is coming then it ans is 122
+console.log(1+2+"2")//if last string is coming them it ans is 32
